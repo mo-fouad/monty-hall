@@ -1,0 +1,32 @@
+.monty-form {
+  margin: 25px auto;
+  max-width: 80%;
+
+  &__item {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+
+    label {
+      display: table-cell;
+      margin-right: 10px;
+      width: 225px;
+    }
+    small.hint {
+      color: #39a035;
+    }
+
+    input {
+      display: table-cell;
+      width: 100%;
+      vertical-align: middle;
+      padding: 5px;
+
+      &[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin-left: 0;
+      }
+    }
+  }
+}
